@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway')
+
 body {
     font-family: "Oswald", Arial, sans-serif;
     overflow-x: hidden; 
+}
+p {
+    font-family: "Oswald";
 }
 a {
     color: #494546;
 }
 
 h1 {
-    font: 700 50px "Oswald", Arial, sans-serif; 
+    font: 700 45px "Oswald", Arial, sans-serif; 
     text-align: center;
 }
 .info {
