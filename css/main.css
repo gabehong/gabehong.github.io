@@ -4,6 +4,7 @@ body {
     font-family: "Oswald", Arial, sans-serif;
     overflow-x: hidden; 
 }
+
 p {
     font-family: "Oswald";
 }
@@ -12,7 +13,7 @@ a {
 }
 
 h1 {
-    font-family: effra, sans-serif;
+    font-family: 'Cutive Mono', monospace;
     font-style: normal;
     font-weight: 300;
     text-align: center;
