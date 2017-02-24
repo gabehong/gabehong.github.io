@@ -114,9 +114,30 @@ a.project-link:active img {
             transition: all .2s;
 }
 
+.header h1 {
+    float: left;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#icon-list {
+    padding-left: 0;
+    float: right;
+    padding-top: 40px;
+}
+
+#icon-list i {
+    font-size: 22px;
+    padding-right: 10px;
+}
+
 @media (min-width: 768px) { 
     h1 {
-        font-size: 60px; 
+        font-size: 50px; 
         text-align: left;
     }
     .info { 
