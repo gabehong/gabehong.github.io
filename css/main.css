@@ -89,12 +89,18 @@ h2.organization-name {
 .description {
     display: none;
 }
+
 .project a img {
     width: 100%;
-    opacity: 0.9;
-    -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.5); 
-       -moz-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.5); 
-            box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+}
+
+/* transition effects
+
+.project a img {
+    width: 100%;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.5); 
+       -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.5); 
+            box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.5);
     -webkit-transition: all .2s; 
        -moz-transition: all .2s; 
          -o-transition: all .2s; 
@@ -104,14 +110,15 @@ a.project-link:hover img,
 a.project-link:focus img,
 a.project-link:active img {
     opacity: 1.0;
-    -webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 1.0); 
-       -moz-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 1.0); 
-            box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 1.0);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 1.0); 
+       -moz-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 1.0); 
+            box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 1.0);
     -webkit-transition: all .2s; 
        -moz-transition: all .2s; 
          -o-transition: all .2s; 
             transition: all .2s;
 }
+*/
 
 .header h1 {
     float: left;
