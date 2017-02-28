@@ -20,6 +20,10 @@ h1 {
     letter-spacing: 3px;
 }
 
+.header {
+    margin-bottom: 2em;
+}
+
 .info {
     margin: 0 auto 2em;
     color: #000;
@@ -83,7 +87,7 @@ h2.organization-name {
 .project h3 {
     display: block; 
     margin: 0; 
-    font: 700 12px/1.5em "Oswald", Arial, sans-serif; 
+    font-family: 'Cutive Mono', monospace; 
     text-transform: uppercase; 
 }
 .description {
@@ -141,9 +145,31 @@ a.project-link:active img {
     padding-right: 10px;
 }
 
+.category-label {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+#label-animation {
+    color: white;
+    background-color: #E81C7A;
+}
+
+#label-illustration {
+    color: white;
+    background-color: #38C9B1;
+}
+
+#label-design {
+    color: black;
+    background-color: #F2D53E;
+}
+
 @media (min-width: 768px) { 
     h1 {
-        font-size: 50px; 
+        font-size: 30px; 
         text-align: left;
     }
     .info { 
@@ -192,7 +218,7 @@ a.project-link:active img {
 
 @media (min-width: 992px) {
     h1 {
-        font-size: 50px;
+        font-size: 30px;
     }
     h2.organization-name {
         font-weight: 400;
