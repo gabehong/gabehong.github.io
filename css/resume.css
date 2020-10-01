@@ -1,8 +1,9 @@
-.resume {
+.resume-grid {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
+
 
 h2, 
 h3,
@@ -12,8 +13,23 @@ span {
 }
 
 .experience {
-	max-width:800px;
+	grid-area: experience;
 }
+
+.education {
+	grid-area: education;
+}
+
+.skills {
+	grid-area: skills;
+}
+
+.resume-grid {
+  grid-template-areas:
+    "experience skills"
+    "experience education";
+}
+
 
 h2 {
 	font-weight: 600;
