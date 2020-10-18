@@ -60,6 +60,6 @@ span.date {
 	  grid-template-columns: 2fr 1fr;
 	  grid-template-areas:
 	    "experience skills"
-	    "experience education";
+	    "experience skills";
 	}
 }
