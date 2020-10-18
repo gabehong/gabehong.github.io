@@ -1,7 +1,11 @@
 .resume-grid {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr 1fr;
+	display: grid;
+	grid-template-columns:1fr;
+	grid-template-areas:
+	"experience"
+	"skills"
+	"education";
+	padding-bottom:60px;
 }
 
 
@@ -22,12 +26,6 @@ span {
 
 .skills {
 	grid-area: skills;
-}
-
-.resume-grid {
-  grid-template-areas:
-    "experience skills"
-    "experience education";
 }
 
 
@@ -54,3 +52,14 @@ span.date {
 	font-style: italic;
 }
 
+
+
+@media (min-width: 640px) {
+	.resume-grid {
+	  display: grid;
+	  grid-template-columns: 2fr 1fr;
+	  grid-template-areas:
+	    "experience skills"
+	    "experience education";
+	}
+}
