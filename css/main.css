@@ -103,9 +103,15 @@ h2.organization-name {
     font-family: 'Nunito', sans-serif;
 }
 
+.intro {
+    padding-top: 5%;
+}
+
 .intro h2 {
     font-family: 'Nunito', sans-serif;
     line-height: 1.5;
+    font-size:55px;
+    font-kerning: auto;
 }
 
 .clearfix:after {
