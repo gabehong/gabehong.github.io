@@ -3,101 +3,6 @@ body {
     overflow-x: hidden; 
 }
 
-p {
-    font-family: 'Cutive Mono', monospace;
-}
-a {
-    color: #494546;
-}
-
-h1 {
-    font-family: 'Cutive Mono', monospace;
-    font-style: normal;
-    font-weight: 300;
-    text-align: center;
-    font-size: 2.5em;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
-
-.header {
-    margin-bottom: 2em;
-}
-
-.info {
-    margin: 0 auto 2em;
-    color: #000;
-    font: 300 12px/1.5em "Oswald", Arial, sans-serif;
-    text-align: center;
-}
-.info a {
-    color: #494546; 
-    border-bottom: 1px dotted #494546;
-    text-decoration: none; 
-    white-space: nowrap;
-}
-.info a:hover,
-.info a:focus,
-.info a:active {
-    color: #494546;
-    opacity: 0.6;
-}
-
-#menu {
-    margin-bottom: 2em; 
-    text-align: center;
-}
-#menu li {
-    display: inline-block; 
-    margin-right: .5em; 
-    padding-right: .5em; 
-    border-right: 1px solid #ccc;
-}
-#menu li:last-child {
-    border-right: none;
-}
-#menu li a {
-    padding: 0;
-    color: #494546; 
-    background-color: transparent;
-    font-family: "Oswald", Arial, sans-serif; 
-    text-transform: uppercase;
-    text-decoration: none; 
-    opacity: 1.0;
-}
-#menu li a:hover,
-#menu li a:focus,
-#menu li a:active {
-    background-color: transparent;
-    opacity: 0.6;
-}
-
-.organization {
-    margin-bottom: 1.75em;
-}
-h2.organization-name {
-    margin: 0 0 .5em; 
-    font-family: 'Cutive Mono', monospace;
-    text-transform: uppercase; 
-}
-
-.project {
-    margin-bottom: 2em;
-}       
-.project h3 {
-    display: block; 
-    margin: 0; 
-    font-family: 'Cutive Mono', monospace; 
-    text-transform: uppercase; 
-}
-.description {
-    display: none;
-}
-
-.project a img {
-    width: 100%;
-}
-
 .header h1 {
     float: left;
     font-family: 'Nunito', sans-serif;
@@ -114,7 +19,6 @@ h2.organization-name {
     font-size:55px;
     font-kerning: auto;
 }
-
 
 
 .clearfix:after {
