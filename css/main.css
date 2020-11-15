@@ -34,16 +34,6 @@ body {
 
 /*Media Queries*/
 
-@media (max-width: 1000px) {
-    .container {
-        width:90%;
-    }
-
-    .col-xs-3 {
-        width: 33.333%;
-    }
-}
-
 @media (max-width: 800px) and (min-width: 600px) {
     div.project-description {
         font-size: 1.3em;
