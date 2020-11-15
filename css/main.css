@@ -20,7 +20,6 @@ body {
     font-kerning: auto;
 }
 
-
 .clearfix:after {
   content: "";
   display: table;
@@ -32,27 +31,8 @@ body {
     grid-template-columns: 1fr 3fr;
 }
 
+.work-date {
+    font-family: 'Roboto Mono', monospace;
+    font
+}
 /*Media Queries*/
-
-@media (max-width: 800px) and (min-width: 600px) {
-    div.project-description {
-        font-size: 1.3em;
-    }
-}
-
-
-@media (max-width: 600px) {
-    .header h1 {
-        float: none;
-        text-align: center;
-    }
-
-    #icon-list {
-        float: none;
-        text-align: center;
-    }
-
-    .col-xs-3 {
-        width: 100%;
-    }
-}
