@@ -105,6 +105,7 @@ h2.organization-name {
 
 .intro {
     padding-top: 5%;
+    padding-bottom: 35px;
 }
 
 .intro h2 {
@@ -114,102 +115,17 @@ h2.organization-name {
     font-kerning: auto;
 }
 
+
+
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
 
-#icon-list {
-    padding-left: 0;
-    float: right;
-    padding-top: 28px;
-}
-
-#icon-list i {
-    font-size: 22px;
-    padding-right: 10px;
-}
-
-.category-label {
-    font-family: 'Cutive Mono', monospace;
-    font-size: 1.2em;
-    text-transform: uppercase;
-    padding: 5px;
-    display: none;
-}
-
-#label-animation {
-    color: white;
-    background-color: #E81C7A;
-}
-
-#label-illustration {
-    color: white;
-    background-color: #38C9B1;
-}
-
-#label-design {
-    color: black;
-    background-color: #F2D53E;
-}
-
-div.project-wrapper {
-    position: relative;
-}
-
-div.project-description {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    color: black;
-    text-align: center;
-    font-size: 2em;
-    line-height: 1.2;
-    display: none;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px transparent;
-    overflow: hidden;
-    -webkit-transition-duration: 0.5s;
-    transition-duration: 0.5s;
-    -webkit-transition-property: color, background-color;
-    transition-property: color, background-color;
-}
-
-#description-design {
-    background: rgba(242, 213, 62, 0.9);
-    color: black;
-}
-
-#description-animation {
-    background: rgba(232, 28, 122, 0.9);
-    color: white;
-}
-
-#description-illustration{
-    background: rgba(56, 201, 177, 0.9);
-    color: white;
-}
-
-.text-overlay {
-    display: block;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-}
-
-.project-description .text-overlay .category {
-    font-size: .6em;
-    text-transform: uppercase;
-}
-
-div.col-xs-3:hover .project-description{
-    display: inline-block;
+.work-row {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
 }
 
 /*Media Queries*/
