@@ -28,6 +28,7 @@ body {
 
 .work {
     padding-bottom:5%;
+    max-width: 900px;
 }
 
 .work-row {
