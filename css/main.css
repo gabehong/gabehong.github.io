@@ -16,7 +16,7 @@ body {
 .intro h2 {
     font-family: 'Nunito', sans-serif;
     line-height: 1.5;
-    font-size:55px;
+    font-size:36px;
     font-kerning: auto;
 }
 
@@ -26,13 +26,37 @@ body {
   clear: both;
 }
 
+.work {
+    padding-bottom:5%;
+}
+
 .work-row {
     display: grid;
     grid-template-columns: 1fr 3fr;
 }
 
-.work-date {
+.work-link h2 {
+    font-size:36px;
+}
+
+.work-category h3 {
+    font-size:18px;
+    font-weight: 300;
+}
+
+.work-link .description {
+    font-size: 22px;
+}
+
+.work-date h3 {
     font-family: 'Roboto Mono', monospace;
-    font
+    font-weight: 300;
+
 }
 /*Media Queries*/
+
+@media (min-width: 640px) {
+    .intro h2 {
+        font-size:55px;
+    }
+}
