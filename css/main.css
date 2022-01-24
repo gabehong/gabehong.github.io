@@ -18,6 +18,10 @@ body {
     padding-bottom: 35px;
 }
 
+.intro-body {
+    font-size: 30px;
+}
+
 .intro h2 {
     font-family: 'Nunito', sans-serif;
     line-height: 1.5;
