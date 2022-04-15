@@ -38,6 +38,10 @@ ul {
 	margin-bottom: 40px;
 }
 
+ul.education-list {
+	margin-top: 20px;
+}
+
 li {
 	margin-bottom: 5px;
 }
