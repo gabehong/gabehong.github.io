@@ -2,14 +2,10 @@ h1 {
 	font-weight: 400;
 }
 
-.headshot {
+.image-container {
 	max-width: 350px;
-	height: 100%;
 }
 
-.bio {
-	max-width: ;
-}
 
 .bio p {
 	font-size: 28px;
