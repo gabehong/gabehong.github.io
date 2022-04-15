@@ -1,3 +1,24 @@
+h1 {
+	font-weight: 400;
+}
+
 .headshot {
-	max-width: 500px;
+	max-width: 350px;
+}
+
+.bio {
+	max-width: ;
+}
+
+.bio p {
+	font-size: 28px;
+}
+
+.flex-container {
+	padding-top: 2%;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	gap: 30px;
+	padding-bottom: 2%;
 }
