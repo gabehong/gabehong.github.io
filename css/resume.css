@@ -1,6 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
-
 .resume-grid {
 	display: grid;
 	grid-template-columns:1fr;
@@ -33,17 +31,24 @@ span {
 
 
 h2 {
-	font-weight: 600;
+	font-weight: 500;
+	margin-bottom: 10px;
 }
 
 ul {
 	font-size:18px;
 	font-weight: 300;
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+
+li {
+	margin-bottom: 5px;
 }
 
 .company {
 	font-size: 20px;
-	font-weight: 600;
+	font-weight: 500;
 	display: inline-block;
 	padding-right: 25px;
 	margin-top:5px;
