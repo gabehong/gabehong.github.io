@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
 .resume-grid {
 	display: grid;
 	grid-template-columns:1fr;
@@ -13,7 +16,7 @@ h2,
 h3,
 ul, 
 span {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 }
 
 .experience {
@@ -35,7 +38,7 @@ h2 {
 
 ul {
 	font-size:18px;
-	font-weight: 200;
+	font-weight: 300;
 }
 
 .company {
@@ -51,7 +54,6 @@ span.date {
 	font-weight: 400;
 	font-style: italic;
 }
-
 
 
 @media (min-width: 640px) {

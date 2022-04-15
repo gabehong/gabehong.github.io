@@ -1,0 +1,65 @@
+.resume-grid {
+	display: grid;
+	grid-template-columns:1fr;
+	grid-template-areas:
+	"experience"
+	"skills"
+	"education";
+	padding-bottom:60px;
+}
+
+
+h2, 
+h3,
+ul, 
+span {
+	font-family: 'Nunito', sans-serif;
+}
+
+.experience {
+	grid-area: experience;
+}
+
+.education {
+	grid-area: education;
+}
+
+.skills {
+	grid-area: skills;
+}
+
+
+h2 {
+	font-weight: 600;
+}
+
+ul {
+	font-size:18px;
+	font-weight: 200;
+}
+
+.company {
+	font-size: 20px;
+	font-weight: 600;
+	display: inline-block;
+	padding-right: 25px;
+	margin-top:5px;
+}
+
+span.date {
+	font-size: 18px;
+	font-weight: 400;
+	font-style: italic;
+}
+
+
+
+@media (min-width: 640px) {
+	.resume-grid {
+	  display: grid;
+	  grid-template-columns: 2fr 1fr;
+	  grid-template-areas:
+	    "experience skills"
+	    "experience skills";
+	}
+}
