@@ -4,6 +4,7 @@ h1 {
 
 .headshot {
 	max-width: 350px;
+	height: 100%;
 }
 
 .bio {
@@ -17,8 +18,24 @@ h1 {
 .flex-container {
 	padding-top: 2%;
 	display: flex;
-	flex-flow: row;
-	justify-content: space-between;
-	gap: 30px;
+	flex-flow: column;
 	padding-bottom: 2%;
+}
+
+li {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+@media (min-width: 900px) {
+	.flex-container {
+		flex-flow: row;
+		justify-content: space-between;
+		gap: 30px;
+	}
+
+	.headshot {
+		max-width: 350px;
+		height: 100%;
+	}
 }
