@@ -9,12 +9,8 @@
 	padding-bottom:60px;
 }
 
-
-h2, 
-h3,
-ul, 
-span {
-	font-family: 'Work Sans', sans-serif;
+h1 {
+	font-weight: 400;
 }
 
 .experience {
