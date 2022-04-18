@@ -37,6 +37,7 @@ body {
   align-items: flex-end;
   flex-direction: row;
   display: flex;
+  font-size: 14px;
 }
 
 .header-right h1 {
