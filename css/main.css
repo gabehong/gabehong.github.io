@@ -12,7 +12,7 @@ body {
 
 .site-header {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -31,13 +31,17 @@ body {
   align-items: flex-start;
   text-transform: uppercase;
   font-weight: 300;
+  margin-bottom: 0;
+}
+
+.header-left h1 {
+  margin-bottom: 0;
 }
 
 .header-right {
   align-items: flex-end;
   flex-direction: row;
   display: flex;
-  font-size: 14px;
 }
 
 .header-right h1 {
@@ -103,6 +107,16 @@ body {
   text-align: center;
   width: 320px;
   transition: 0.3s ease;
+}
+
+@media (min-width: 800px) {
+  .site-header {
+    flex-direction: row;
+  }
+
+  .header-left h1 {
+    margin-bottom: initial;
+  }
 }
 
 
