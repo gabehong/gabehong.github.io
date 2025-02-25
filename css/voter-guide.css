@@ -2,14 +2,14 @@
 .work-container {
 	display: flex;
 	flex-direction: column;
-	padding-top: 20px;
+	padding: 20px;
 	max-width: 1200px;
+	background-color: #fff3ca;
 }
 
 .image-container {
 	display: flex;
 	padding: 2% 0;
-	background-color: #fff3ca;
 	width: 100%;
 }
 
@@ -17,6 +17,13 @@
 	box-shadow: 0 0px 7px 0 rgba(0, 0, 0, 0.5);
 	margin: 0 auto;
 	width: 100%;
+}
+
+.blurb-container {
+	font-size: 22px;
+	line-height: 1.5;
+	max-width: 700px;
+	margin: 0 auto;
 }
 
 .zine-cover {
