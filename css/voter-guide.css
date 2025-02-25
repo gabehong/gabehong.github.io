@@ -1,16 +1,28 @@
 
-.zine-spread-container {
+.work-container {
 	display: flex;
 	flex-direction: column;
 	padding-top: 20px;
+	max-width: 1200px;
 }
 
-.zine-spread-container img {
-	margin-bottom: 5%;
-	box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.2);
+.image-container {
+	display: flex;
+	padding: 2% 0;
+	background-color: #fff3ca;
+	width: 100%;
+}
+
+.work-container img {
+	box-shadow: 0 0px 7px 0 rgba(0, 0, 0, 0.5);
+	margin: 0 auto;
+	width: 100%;
 }
 
 .zine-cover {
 	max-width: 500px;
-	margin: 0 auto;
+}
+
+.zine-spread {
+	max-width: 900px;
 }
